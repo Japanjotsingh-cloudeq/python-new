@@ -32,7 +32,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: run python file
         run: python add.py
-        working-directory: ./jap
+        working-directory: jap/add.py
 
       # # Runs a set of commands using the runners shell
       # - name: Run a multi-line script
